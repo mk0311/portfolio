@@ -24,6 +24,7 @@ import ror from "./tech/ror.png";
 import cogoport from "./company/cogoport.png";
 import postgres from "./tech/postgres.png";
 import auth from "./auth.png";
+import rbac from "./rbac.png";
 
 export {
   logo,
@@ -49,5 +50,6 @@ export {
   ror,
   cogoport,
   postgres,
-  auth
+  auth,
+  rbac
 };

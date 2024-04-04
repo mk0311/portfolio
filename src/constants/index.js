@@ -19,6 +19,7 @@ import {
   ror,
   cogoport,
   postgres,
+  rbac,
 } from "../assets";
 
 export const navLinks = [
@@ -186,6 +187,27 @@ const projects = [
     image: auth,
     source_code_link: "https://github.com/mk0311/AAS",
   },
+  {
+  name: "Role Based Acess Controlle (RBAC)",
+  description:
+    "Role-Based Access Control (RBAC) is a security model where access to resources is based on roles assigned to users or groups.",
+  tags: [
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "NodeJs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "MongoDB",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: rbac,
+  source_code_link: "https://github.com/",
+  }
 ];
 
 export { services, technologies, experiences, projects };
