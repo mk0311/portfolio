@@ -8,10 +8,6 @@ ReactGA.initialize('G-NMVFY4PW2P');
 
 const App = () => {
   
-  useEffect(() => {
-    ReactGA.pageview();
-  }, []);
-
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
