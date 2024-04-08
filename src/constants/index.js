@@ -169,7 +169,7 @@ const projects = [
   {
     name: "Authentication Service",
     description:
-      "Web-based, scalable and secure authentication service capable of managing user sessions effectively",
+      "Web-based, scalable and secure authentication service capable of managing user sessions effectively.",
     tags: [
       {
         name: "React",
@@ -188,9 +188,9 @@ const projects = [
     source_code_link: "https://github.com/mk0311/AAS",
   },
   {
-  name: "Role Based Acess Controlle (RBAC)",
+  name: "Role Based Acess Control",
   description:
-    "Role-Based Access Control (RBAC) is a security model where access to resources is based on roles assigned to users or groups.",
+    "RBAC is a security model where access to resources is based on roles assigned to users.",
   tags: [
     {
       name: "React",
