@@ -1,10 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import ReactGA from "react-ga";
-
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-
-ReactGA.initialize('G-NMVFY4PW2P');
 
 const App = () => {
   
