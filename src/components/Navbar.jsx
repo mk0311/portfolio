@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ReactGA from "react-ga";
-
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
