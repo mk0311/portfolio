@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -25,8 +25,10 @@ import cogoport from "./company/cogoport.png";
 import postgres from "./tech/postgres.png";
 import auth from "./auth.png";
 import rbac from "./rbac.png";
+import pc from "./pc.png";
 
 export {
+  pc,
   logo,
   backend,
   creator,
