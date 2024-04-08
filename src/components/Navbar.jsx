@@ -13,10 +13,6 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  }, []);
-
-  useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       if (scrollTop > 100) {
