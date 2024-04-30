@@ -20,6 +20,7 @@ import {
   cogoport,
   postgres,
   rbac,
+  desiTwirll,
 } from "../assets";
 
 export const navLinks = [
@@ -170,6 +171,27 @@ const experiences = [
   },
 ];
 const projects = [
+  {
+    name: "Desi Twirll",
+    description:
+      "The Rails Twitter-like app is a web application that allows users to post text messages, follow other users, and interact with their posts.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ROR",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: desiTwirll,
+    source_code_link: "https://github.com/mk0311/DesiTwirl",
+  },
   {
     name: "Authentication Service",
     description:

@@ -26,8 +26,10 @@ import postgres from "./tech/postgres.png";
 import auth from "./auth.png";
 import rbac from "./rbac.png";
 import pc from "./pc.png";
+import desiTwirll from "./desiTwirll.png";
 
 export {
+  desiTwirll,
   pc,
   logo,
   backend,

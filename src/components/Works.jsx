@@ -26,7 +26,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px]' >
           <img
             src={image}
             alt='project_image'
@@ -48,7 +48,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3 className='text-white font-bold text-[24px] cursor-pointer' onClick={() => window.open(source_code_link, "_blank")}>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
@@ -57,6 +57,7 @@ const ProjectCard = ({
             <p
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
+              
             >
               #{tag.name}
             </p>
