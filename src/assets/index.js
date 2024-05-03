@@ -20,7 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
-import ror from "./tech/ror.png";
+import ror from "./tech/ruby-seeklogo.svg";
 import cogoport from "./company/cogoport.png";
 import postgres from "./tech/postgres.png";
 import auth from "./auth.png";

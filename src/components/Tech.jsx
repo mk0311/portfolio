@@ -9,8 +9,8 @@ const Tech = () => {
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       {technologies.map((technology) => (
         <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon}/>
-          <div className="text-center">{technology.name}</div>
+          <img style={{ borderRadius: '25%', background: '#818589', objectFit: 'contain', width: '100%', height: '100%' }} src={technology.icon} />
+        <div className="text-center">{technology.name}</div>
         </div>
       ))}
     </div>
